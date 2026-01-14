@@ -1,5 +1,10 @@
 fastapi
 uvicorn
+torch
+torchvision
+numpy
+scikit-learn
 python-multipart
-openai
-pydantic
+Pillow
+joblib
+poetry
