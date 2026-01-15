@@ -47,18 +47,6 @@
 ## 📸 Screenshots
 
 ### Risk Assessment Dashboard
-*(Add your screenshot `image_41a42d.png` here)*
-`![Dashboard Screenshot](path/to/your/image.png)`
 
----
+<img width="1910" height="790" alt="Untitled 3" src="https://github.com/user-attachments/assets/f2891182-190a-4dc8-902d-3a0d3102a67a" />
 
-## 🏗️ Architecture
-
-```mermaid
-graph LR
-    A[User (Streamlit UI)] -- Sends Vitals/Image --> B[FastAPI Backend]
-    B -- Process Image --> C[CNN / VGG13 Model]
-    B -- Analyze Vitals --> D[MLP / Risk Model]
-    C --> E[Prediction Result]
-    D --> E
-    E -- JSON Response --> A
